@@ -4,7 +4,9 @@
 
 这是一份南京信息工程大学本科生毕业论文 LaTeX 模板，请使用 XeLaTeX 编译。**提醒：本文档是非官方版**
 
-本 Repository 是对 [NUIST_Bachelor_Thesis_LaTeX_Template](https://github.com/sakronos/NUIST_Bachelor_Thesis_LaTeX_Template.git)进行修订。
+本 Repository 是对 [NUIST_Bachelor_Thesis_LaTeX_Template](https://github.com/sakronos/NUIST_Bachelor_Thesis_LaTeX_Template.git) 进行修订。
+
+非常感谢前辈们做出的工作！
 
 ## 推荐使用环境
 ### Windows
