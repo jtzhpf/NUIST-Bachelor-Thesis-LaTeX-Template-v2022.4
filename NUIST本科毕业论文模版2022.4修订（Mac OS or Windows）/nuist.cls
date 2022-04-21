@@ -4,7 +4,7 @@
 \usepackage{xeCJK}
 \usepackage{subfigure}
 \usepackage{xltxtra}
-
+\usepackage{appendix}
 \RequirePackage{geometry}
 \geometry{left=3cm,right=3cm,top=2.5cm,bottom=2.5cm}%,headsep=12pt,headheight=20pt,footskip=24pt
 %设定页眉为空
@@ -235,7 +235,7 @@
 \begin{titlepage}
 \begin{center}
 \vspace*{1.2cm}
-\includegraphics[scale=1]{nuist_logo/nuist.pdf}
+\includegraphics[scale=0.9]{nuist_logo/nuist.eps}
 
 \vspace*{1cm}
 \heiti\zihao{-1}本科生毕业论文(设计)\\
@@ -268,3 +268,9 @@
 \end{titlepage}
 \makestatement
 }
+%附录
+\renewcommand{\appendix}{\par
+    \setcounter{section}{0}
+    \setcounter{subsection}{0}
+    \gdef\thesection{附录\Alph{section}}}
+    
